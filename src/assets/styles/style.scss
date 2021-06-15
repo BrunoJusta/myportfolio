@@ -26,11 +26,12 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
+  user-select: none;
 }
 .background {
   position: absolute;
   width: 100vw;
-  height: 110%;
+  height: 101%;
   overflow: hidden;
   pointer-events: none;
 }
@@ -178,7 +179,7 @@ body {
 
 .img {
   // cursor: none;
-  transition: 650ms ease-in-out;
+  transition: 450ms;
   &-01 {
     z-index: 2;
   }
@@ -188,6 +189,14 @@ body {
     pointer-events: none;
     filter: blur(100px);
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 
 .img-01:hover {

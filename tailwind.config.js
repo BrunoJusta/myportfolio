@@ -177,10 +177,11 @@ module.exports = {
         900: "#702459",
       },
       theme: {
-        background: "#141414",
-        primary: "#FF004D",
+        background: "#222831",
+        primary: "#F05454",
         secondary: "#f56565",
         yellow: "#ffbf46",
+        back: "#30475E",
       },
     },
     spacing: {

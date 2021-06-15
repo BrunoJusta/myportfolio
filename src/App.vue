@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="min-h-screen" style="background-color:#141414">
+  <div id="app" class="min-h-screen" style="background-color:#222831">
     <div class="flex min-h-screen">
       <div class="w-full ">
         <!--   <UserBar
@@ -7,7 +7,7 @@
           v-if="!isWatchView"
         /> -->
         <div>
-          <router-view :class="!isWatchView ? 'p-4' : ''" />
+          <router-view :class="!isWatchView ? 'p-0' : ''" />
         </div>
       </div>
     </div>
