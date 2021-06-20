@@ -1,0 +1,32 @@
+
+<div
+      class="appearance self-center xs:flex lg:hidden flex-col justify-center items-center"
+    >
+      <lottie-player
+        src="https://assets6.lottiefiles.com/packages/lf20_8dphtide.json"
+        background="transparent"
+        speed=".5"
+        style="width: 350px; height: 200px;"
+        loop
+        autoplay
+        class="mb-12"
+      ></lottie-player>
+      <h1
+        class="justa text-white xs:text-5xl font-semibold font-poppins mb-10 flex"
+      >
+        I'm <span class="text-theme-primary ml-2"> sorry</span>!
+      </h1>
+      <p
+        class="text-white xs:text-lg md:text-2xl font-thin font-poppins mb-2 w-72 text-justify"
+      >
+        this portfolio was developed for desktop only. I'm working on a mobile
+        version so hope to see you soon. You can check my work on my
+        <a
+          href="http://www.behance.net/brunojusta98"
+          target="_blank"
+          rel="noopener"
+          class="text-theme-primary font-semibold"
+          >BEHANCE</a
+        >.
+      </p>
+    </div>

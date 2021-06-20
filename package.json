@@ -1,5 +1,5 @@
 {
-  "name": "publitv",
+  "name": "bruno-justa",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,19 +12,12 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "dotenv": "^8.2.0",
-    "firebase": "^8.2.2",
-    "moment": "^2.29.1",
     "node-sass": "^5.0.0",
-    "register-service-worker": "^1.7.1",
     "sass-loader": "^10.1.1",
     "tailwindcss": "^1.9.6",
     "vue": "^2.6.11",
-    "vue-marquee-text-component": "^1.2.0",
     "vue-router": "^3.4.9",
-    "vuedraggable": "^2.24.3",
-    "vuelidate": "^0.7.6",
     "vuex": "^3.6.0",
-    "xml2js": "^0.4.23",
     "yarn": "^1.22.10"
   },
   "devDependencies": {
